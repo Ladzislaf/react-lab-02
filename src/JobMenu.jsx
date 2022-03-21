@@ -31,16 +31,18 @@ function JobMenu(props) {
         }
     }
 
-    return <div className="job_menu">
-        <a href={job_link}>Срок обучения</a>
-        <a href={job_link}>Заработная плата</a>
-        <a href={job_link}>График</a>
-        <a href={job_link}>Доступные вакансии</a>
-        <a href={job_link}>Описание</a>
-        <a href={job_link}>Место работы</a>
-        <a href={job_link}>Дополнительная информация</a>
-        <a href={job_link}>{props.job}</a>
-    </div>
+    return (
+        <div className="job_menu">
+            <a href={job_link}>Срок обучения</a>
+            <a href={job_link}>Заработная плата</a>
+            <a href={job_link}>График</a>
+            <a href={job_link}>Доступные вакансии</a>
+            <a href={job_link}>Описание</a>
+            <a href={job_link}>Место работы</a>
+            <a href={job_link}>Дополнительная информация</a>
+            <a href={job_link}>{props.job}</a>
+        </div>
+    )
 }
 
 export default JobMenu;

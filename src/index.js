@@ -1,16 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Clock from './Clock';
-import Jobs from './Jobs';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import Clock from './Clock'
+import Jobs from './Jobs'
 
 function tick() {
-    const APP =
+    const APP = (
         <div>
-            <Clock format='24' timezone='+03:00'/>
-            <Jobs/>
+            <Clock format="12" timezone="+05:30" />
+            <Jobs />
         </div>
+    )
 
-    ReactDOM.render(APP, document.getElementById('root'));
+    ReactDOM.render(APP, document.getElementById('root'))
 }
 
-setInterval(tick, 1000);
+setInterval(tick, 1000)
