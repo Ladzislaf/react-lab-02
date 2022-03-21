@@ -17,7 +17,7 @@ function Jobs() {
             <JobMenu job={job}/>
             <div className="choice">
                 <div>
-                    <input type="radio" id="job_1" name="job" value="job_1" checked/>
+                    <input type="radio" id="job_1" name="job" value="job_1"/>
                     <label htmlFor="job_1">Programmer</label>
                 </div>
                 <div>

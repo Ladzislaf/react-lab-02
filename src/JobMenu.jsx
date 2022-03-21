@@ -26,7 +26,7 @@ function JobMenu(props) {
             break;
         }
         default: {
-            job_link = "https://www.google.com/";
+            job_link = "";
             break;
         }
     }
